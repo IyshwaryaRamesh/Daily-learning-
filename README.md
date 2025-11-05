@@ -1,25 +1,26 @@
-# Daily-learning-
+Daily Learning Documentation
+Azure Function
 
-OpenAPI – Learned that it is used for designing and documenting APIs in a standardized format. It helps developers understand API endpoints, input/output, and responses without needing the actual code.
+Today, I learned what Azure Function is and understood why it is used in real-time projects. I got a clear idea of how it helps in running code without keeping the server always on. I also learned the steps involved in creating a function in Azure and how to connect it with VS Code.
 
-Internal API – Understood that these are used within an organization to connect internal systems (e.g., HR system interacting with payroll service).
+Logic App
 
-Partner API – These are shared with external business partners in a controlled manner. For example, a travel booking platform connecting with airline APIs to fetch live flight information.
+I learned what Logic App is and how it is used to automate workflows. I understood how to create a Logic App, how to trigger and schedule it, and how to initialize variables and execute queries inside it. I also got a clear understanding of how Logic App and Azure Function differ in their purpose and usage.
 
-Composite API – Learned that this combines multiple service calls into one. For instance, in an e-commerce application, a composite API can fetch user details, cart items, and recommendations in a single request. It also helps in reducing server load.
+System Concepts
 
-REST API – Understood that REST APIs make functional calls over the Internet and follow HTTP protocol rules (GET, POST, PUT, DELETE). It’s widely used because it’s lightweight, flexible, and platform-independent.
+I learned about Deterministic and Probability Systems. From this, I understood how outcomes can be predictable in a deterministic system and how results can vary in a probability-based system. This helped me relate how such logic applies in real-world applications.
 
-SOAP API – Learned that SOAP uses XML for communication and is preferred in systems that need higher security and reliability, like banking or enterprise applications.
+Company Competencies
 
-Deterministic vs Probabilistic Systems –
+I learned about the different competencies available in our company and how each area focuses on different technical and functional skills. This gave me a better understanding of where my role fits and what skills are important for future growth.
 
-Deterministic systems: Produce the same output for the same input (e.g., a calculator).
+Today's Task
 
-Probabilistic systems: Outputs vary based on probability and uncertainty (e.g., weather prediction models).
+In today’s task, I solved three HackerRank programs based on if-else, arithmetic, and loops. These problems helped me revise my logic-building skills.
+I also learned about data severities — how even a minute change in data can impact the system. This gave me a better sense of how confidential and sensitive data should be handled.
+Additionally, I was assigned a task to find row count, column count, and compare random columns from the dataset. Through this, I got a practical understanding of data validation and analysis, and a clear idea of the kind of tasks we will be handling in the project.
 
-Azure Functions – Explored how Azure Functions allow running small pieces of code in the cloud without managing infrastructure. They work on an event-driven model — functions execute only when triggered, saving cost and improving performance.
+Summary
 
-Summary:
-
-Today, I deepened my understanding of different API types and their use cases, explored REST and SOAP communication models, and learned key system concepts like deterministic and probabilistic behaviors. I also gained insight into Azure Functions and how they simplify serverless execution in cloud environments.
+Overall, today’s learning helped me understand Azure Functions and Logic Apps in depth, strengthened my coding skills through problem-solving, and made me realize the importance of data accuracy and confidentiality in real-time project work.
