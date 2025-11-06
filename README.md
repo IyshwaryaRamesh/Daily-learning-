@@ -1,26 +1,57 @@
 Daily Learning Documentation
-Azure Function
 
-Today, I learned what Azure Function is and understood why it is used in real-time projects. I got a clear idea of how it helps in running code without keeping the server always on. I also learned the steps involved in creating a function in Azure and how to connect it with VS Code.
+Introduction
 
-Logic App
+Today, I explored and practiced working with the Azure Function App. My focus was to understand how it works, the setup process in the Azure portal, and how it can be deployed using Visual Studio Code.
 
-I learned what Logic App is and how it is used to automate workflows. I understood how to create a Logic App, how to trigger and schedule it, and how to initialize variables and execute queries inside it. I also got a clear understanding of how Logic App and Azure Function differ in their purpose and usage.
+Creating a Function App in Azure Portal
 
-System Concepts
+Opened the Azure Portal and navigated to the Function App service.
 
-I learned about Deterministic and Probability Systems. From this, I understood how outcomes can be predictable in a deterministic system and how results can vary in a probability-based system. This helped me relate how such logic applies in real-world applications.
+Selected the subscription and created a new resource group to organize the related resources.
 
-Company Competencies
+Gave a Function App name and selected a runtime stack.
 
-I learned about the different competencies available in our company and how each area focuses on different technical and functional skills. This gave me a better understanding of where my role fits and what skills are important for future growth.
+Chose an appropriate region and linked it to a storage account by giving a storage account name.
 
-Today's Task
+Configured the hosting and monitoring options as per the default setup.
 
-In today’s task, I solved three HackerRank programs based on if-else, arithmetic, and loops. These problems helped me revise my logic-building skills.
-I also learned about data severities — how even a minute change in data can impact the system. This gave me a better sense of how confidential and sensitive data should be handled.
-Additionally, I was assigned a task to find row count, column count, and compare random columns from the dataset. Through this, I got a practical understanding of data validation and analysis, and a clear idea of the kind of tasks we will be handling in the project.
+Reviewed all configurations and successfully created the Function App.
+
+Exploring Subscription Plans
+
+Learned about the different subscription plans available for Function Apps in Azure.
+
+Understood the difference between Consumption Plan, Premium Plan, and Dedicated (App Service) Plan.
+
+Identified when to use each plan based on scalability, pricing, and performance needs.
+
+Understanding Key Components
+
+Explored what Resource Groups are and how they help in managing and organizing related Azure services.
+
+Understood the purpose of a Storage Account, which stores the data, logs, and triggers used by the Function App.
+
+Got familiar with the Function App settings, monitoring tools, and deployment options inside the portal.
+
+Deployment Using Visual Studio Code
+
+Installed the Azure Functions extension in Visual Studio Code.
+
+Connected VS Code to my Azure account.
+
+Created a new HTTP-triggered Function and customized the route.
+
+Deployed the Function App from VS Code to Azure successfully.
+
+Verified the deployment by testing the endpoint from the browser.
+
+Creating and Testing Routes
+
+Defined a custom route for the Function App to handle specific HTTP requests.
+
+Tested the function route to confirm that it executed properly and returned the expected output.
 
 Summary
 
-Overall, today’s learning helped me understand Azure Functions and Logic Apps in depth, strengthened my coding skills through problem-solving, and made me realize the importance of data accuracy and confidentiality in real-time project work.
+Today, I learned how to create, configure, and deploy an Azure Function App both from the Azure Portal and through Visual Studio Code. I understood the importance of subscription plans, resource groups, and storage accounts in the setup process. Overall, this hands-on experience helped me get a better practical understanding of how serverless computing works in Azure and how Function Apps can be used to automate and host backend logic effectively.
